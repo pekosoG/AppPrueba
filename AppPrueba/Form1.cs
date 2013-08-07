@@ -16,5 +16,10 @@ namespace AppPrueba
         {
             InitializeComponent();
         }
+
+        private void btnOrale_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show("Me la pelas");
+        }
     }
 }
